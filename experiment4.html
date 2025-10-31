@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table and Contact Form Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #4CAF50;
+    }
+
+    /* Table styling */
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+      width: 80%;
+      max-width: 700px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    /* Form styling */
+    form {
+      background: white;
+      max-width: 400px;
+      margin: 30px auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>Web Page with Table and Contact Form</h1>
+
+  <h2>Student Information</h2>
+  <table>
+    <tr>
+      <th>Roll No</th>
+      <th>Name</th>
+      <th>Course</th>
+      <th>City</th>
+    </tr>
+    <tr>
+      <td>101</td>
+      <td>Amit Kumar</td>
+      <td>BCA</td>
+      <td>Delhi</td>
+    </tr>
+    <tr>
+      <td>102</td>
+      <td>Priya Sharma</td>
+      <td>BBA</td>
+      <td>Mumbai</td>
+    </tr>
+    <tr>
+      <td>103</td>
+      <td>Ravi Singh</td>
+      <td>B.Sc</td>
+      <td>Lucknow</td>
+    </tr>
+  </table>
+
+  
+  <h2>Contact Form</h2>
+  <form>
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>
