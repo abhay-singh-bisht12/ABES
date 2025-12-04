@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p:not(.one)
+        {
+            color:rgb(255, 0, 0);
+            font-size:x-large;
+        }
+        p::after{
+            content:" ABES ";
+        }
+        p::first-line{
+            color: blue;
+        }
+        
+        p::first-letter{
+            color:rgb(43, 226, 67);
+            font-size: 30px;
+        }
+        input::placeholder
+        {
+            color:blue;
+            font-weight: 400;
+            font-family: red;
+            
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>Hello, World!</h1>
+    <p class="one">This is a simple HTML document. Lorem ipsum dolor <br>sit amet consectetur adipisicing elit. Doloribus
+        rerum quia
+        dignissimos numquam quam laborum aperiam ducimus ullam cumque tempora aut quaerat dicta ipsam accusamus a sit,
+        temporibus, totam quibusdam?</p>
+    <p class="two">Lorem ipsum, dolor sit amet consectetur<br> adipisicing elit. Magnam commodi facere nemo natus ex maxime
+        accusantium sed cupiditate, consequatur consectetur fugiat placeat? Pariatur minus, eaque eveniet similique
+        corporis sequi accusamus!</p>
+        <p>welcome </p>
+        <p>welcome <br>Back</p>
+        <label>Name</label>
+        <input type="text" placeholder="enter your name"
+    <footer>
+        <div>© 2024 My Website</div>
+    </footer>
+</body>
+
+</html>
